@@ -8,7 +8,7 @@ on:
 
 jobs:
   test-arc-runner-set-jay1:
-    runs-on: arc-runner-set-jay1
+    runs-on: arc-runner-set-app
     steps:
       - run: echo "Hello world"
       - run: sleep 300
